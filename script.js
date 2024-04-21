@@ -7,5 +7,5 @@ function guardarNota(evento){
     let nota = evento.target.innerText
 
     localStorage.setItem("nota", nota)
-    
+
 }
